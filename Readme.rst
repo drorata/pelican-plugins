@@ -84,8 +84,6 @@ Events                    Add event start, duration, and location info to post m
 
 Extract table of content  Extracts table of contents (ToC) from ``article.content``
 
-Feed Summary              Allows article summaries to be used in ATOM and RSS feeds instead of the entire article
-
 Figure References         Provides a system to number and references figures
 
 Filetime from Git         Uses Git commit to determine page date
@@ -99,6 +97,8 @@ GA Page View              Display Google Analytics page views on individual arti
 Gallery                   Allows an article to contain an album of pictures
 
 Gist directive            This plugin adds a ``gist`` reStructuredText directive.
+
+GitHub wiki               Converts a flat github wiki into a structured read only wiki on your site
 
 GitHub activity           On the template side, you just have to iterate over the ``github_activity`` variable
 
@@ -130,7 +130,7 @@ Interlinks                Lets you add frequently used URLs to your markup using
 
 Jinja2 Content            Allows the use of Jinja2 template code in articles, including ``include`` and ``import`` statements. Replacement for pelican-jinja2content.
 
-Just table                Easily create tables in articles
+Just table                Allows you to easily create and manage tables. You can embed the tables into posts with a simple way.
 
 Libravatar                Allows inclusion of user profile pictures from libravatar.org
 
